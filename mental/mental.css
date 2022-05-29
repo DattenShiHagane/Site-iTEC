@@ -1,0 +1,580 @@
+.disabled 
+{
+    pointer-events: none;
+    opacity: 1;
+}
+html{scroll-behavior: smooth;}
+#millness{position: absolute;top:900px;}
+#health{position: absolute;top:1700px;}
+#hproviders{position: absolute;top:2500px;}
+.line1
+{
+    background-color: rgb(242, 76, 35);
+    width: 1519px;
+    height: 3px;
+
+    position: absolute;
+    top: 900px;
+    left: 0px;
+
+    z-index: 5;
+}
+.line2
+{
+    background-color: rgb(242, 76, 35);
+
+    width: 1519px;
+    height: 3px;
+
+    position: absolute;
+    top: 1700px;
+    left: 0px;
+
+    z-index: 5;
+}
+.line3
+{
+    background-color: rgb(242, 76, 35);
+
+    width: 1519px;
+    height: 3px;
+
+    position: absolute;
+    top: 2500px;
+    left: 0px;
+
+    z-index: 5;
+}
+.logo
+{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+
+    width: 400px;
+    height: 100px;
+    z-index: 1;
+}
+
+.bar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+    background-color: orangered;
+
+    width:1519px;
+    height: 100px;
+}
+
+.box1
+{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+
+    width: 300px;
+    height: 400px;
+
+    border: 5px solid orangered;
+    border-radius: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.mentalillness1
+{
+    position: absolute;
+    top: 260px;
+    left: 285px;
+
+    width: 130px;
+    height: 130px;
+}
+.titlemental1
+{
+    color: black;
+    
+    position: absolute;
+    top: 350px;
+    left: 260px;
+    text-align: center;
+    
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textmental1
+{
+    color: black;
+
+    position: absolute;
+    top: 405px;
+    left: 256px;
+    text-align: center;
+
+    max-width: 200px;
+
+    font-weight: 500;
+    font-size: 18px;
+    font-style: bold;
+    
+}
+.box2
+{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+
+    width: 300px;
+    height: 400px;
+
+    border: 5px solid orangered;
+    border-radius: 50px;
+}
+.mentalhealth
+{
+    position: absolute;
+    top: 200px;
+    left: 666px;
+
+    width: 200px;
+    height: 200px;
+}
+.titlemental2
+{
+    color: black;
+    
+    position: absolute;
+    top: 350px;
+    left: 660px;
+    text-align: center;
+    
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textmental2
+{
+    color: black;
+
+    position: absolute;
+    top: 405px;
+    left: 650px;
+    text-align: center;
+
+    max-width: 200px;
+
+    font-weight: 500;
+}
+.box3
+{
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+
+    width: 300px;
+    height: 400px;
+
+    border: 5px solid orangered;
+    border-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.psyholog
+{
+    position: absolute;
+    top: 200px;
+    left: 1045px;
+
+    width: 235px;
+    height: 235px;
+}
+.titlemental3
+{
+    color: black;
+    
+    position: absolute;
+    top: 354px;
+    left: 1018px;
+    text-align: center;
+    
+    font-size: 25px;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textmental3
+{
+    color: black;
+
+    position: absolute;
+    top: 405px;
+    left: 1030px;
+    text-align: center;
+
+    width: 250px;
+
+    font-weight: 500;
+    text-align: center;
+}
+.box1:hover
+{
+    background-color: rgb(248, 104, 64);
+}
+
+.box2:hover
+{
+    background-color: rgb(248, 104, 64);
+}
+
+.box3:hover
+{
+    background-color: rgb(248, 104, 64);
+}
+
+.img1
+{
+    position: absolute;
+    top: 900px;
+    left:0;
+    
+    width: 1519px;
+    height: 800px;
+    z-index: -1;
+
+}
+.img1a
+{
+    position: absolute;
+    top: 900px;
+    left:0;
+    
+    width: 1519px;
+    height: 2400px;
+    
+    background-color: black;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.tt1 
+{
+    position: absolute;
+    top: 930px;
+    left: 230px;
+
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+}
+.underlinemi
+{
+
+        background-color: rgb(240, 70, 23);
+    
+        width: 320px;
+        height: 3px;
+    
+        position: absolute;
+        top: 1030px;
+        left: 210px;
+    
+        z-index: 5;
+    
+}
+.pp1
+{
+    background-color: rgb(240, 70, 23);
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 1060px;
+    left: 84px;
+
+    z-index: 4;
+}
+
+.pp2
+{
+    background-color: rgb(240, 70, 23);
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 1211px;
+    left: 84px;
+
+    z-index: 4;
+}
+.pp3
+{
+    background-color: rgb(240, 70, 23);
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 1331px;
+    left: 84px;
+
+    z-index: 4;
+}
+.pp4
+{
+    background-color: rgb(240, 70, 23);
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 1060px;
+    left: 885px;
+
+    z-index: 4;
+}
+
+.tt12
+{
+    position: absolute;
+    top: 1030px;
+    left: 100px;
+
+    width: 600px;
+
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+}
+.tt13
+{
+    position: absolute;
+    top: 1180px;
+    left: 100px;
+
+    width: 600px;
+
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+}
+.tt14
+{
+    position: absolute;
+    top: 1300px;
+    left: 100px;
+
+    width: 600px;
+
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+}
+.tt15
+{
+    position: absolute;
+    top: 930px;
+    left: 1000px;
+
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+}
+.underlines
+{
+    background-color: rgb(240, 70, 23);
+    
+    width: 260px;
+    height: 3px;
+
+    position: absolute;
+    top: 1040px;
+    left: 975px;
+
+    z-index: 5;
+}
+.p1 
+{
+    background-color: rgb(240, 70, 23);
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 1860px;
+    left: 84px;
+
+    z-index: 4;
+}
+.p2 
+{
+    background-color: rgb(240, 70, 23);
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 2060px;
+    left: 84px;
+
+    z-index: 4;
+}
+.tt16
+{
+    position: absolute;
+    top: 1030px;
+    left: 900px;
+
+    width: 600px;
+
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+}
+.underlinemh
+{
+    background-color: rgb(240, 70, 23);
+    
+    width: 320px;
+    height: 3px;
+
+    position: absolute;
+    top: 1835px;
+    left: 210px;
+
+    z-index: 5;
+}
+
+.img2
+{
+    position: absolute;
+    top: 1700px;
+    left:0;
+    
+    width: 1519px;
+    height: 800px;
+    z-index: -1;
+}
+.tt2
+{
+    position: absolute;
+    top: 1730px;
+    left: 230px;
+
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+}
+.tt22
+{
+    position: absolute;
+    top: 1830px;
+    left: 100px;
+
+    width: 600px;
+
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+}
+.tt23
+{
+    position: absolute;
+    top: 2030px;
+    left: 100px;
+
+    width: 600px;
+
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+}
+
+.tt24
+{
+    position: absolute;
+    top: 2160px;
+    left: 100px;
+
+    width: 600px;
+
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+}
+.underlinep
+{
+    background-color: rgb(240, 70, 23);
+    
+    width: 515px;
+    height: 3px;
+
+    position: absolute;
+    top: 2624px;
+    left: 130px;
+
+    z-index: 5;
+}
+.pct
+{
+    background-color: rgb(240, 70, 23);
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 2650px;
+    left: 84px;
+
+    z-index: 4;
+}
+
+.img3
+{
+    position: absolute;
+    top: 2500px;
+    left:0;
+    
+    width: 1519px;
+    height: 800px;
+    z-index: -1;
+}
+.tt25
+{
+    position: absolute;
+    top: 2520px;
+    left: 140px;
+
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+}
+.tt26
+{
+    position: absolute;
+    top: 2620px;
+    left: 100px;
+
+    width: 600px;
+
+    color: white;
+    font-size: 23px;
+    z-index: 1;
+}

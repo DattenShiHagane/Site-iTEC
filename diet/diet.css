@@ -1,0 +1,367 @@
+html{scroll-behavior: smooth;}
+#next{margin-top: 47.45%; padding-bottom: 25%;}
+#next2{margin-top: 25%;padding-bottom: 40%;}
+
+.line1
+{
+    background-color: rgb(139, 253, 139);
+    width: 1519px;
+    height: 3px;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    z-index: 5;
+}
+
+.underline1
+{
+    background-color: rgb(139, 253, 139);
+    width: 950px;
+    height: 3px;
+
+    position: absolute;
+    top: 140px;
+    left: 297px;
+
+    z-index: 5;
+}
+
+.point1
+{
+    background-color: rgb(139, 253, 139);
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 185px;
+    left: 550px;
+
+    z-index: 5;
+}
+
+.line2
+{
+    background-color: rgb(139, 253, 139);
+
+    width: 1519px;
+    height: 3px;
+
+    position: absolute;
+    top: 721px;
+    left: 0px;
+
+    z-index: 5;
+}
+
+.point2
+{
+    background-color: rgb(139, 253, 139);
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 863px;
+    left: 535px;
+
+    z-index: 5;
+}
+
+.underline2
+{
+    background-color: rgb(139, 253, 139);
+    width: 750px;
+    height: 3px;
+
+    position: absolute;
+    top: 830px;
+    left: 385px;
+
+    z-index: 5;
+}
+
+.line3
+{
+    background-color: rgb(139, 253, 139);
+
+    width: 1519px;
+    height: 3px;
+
+    position: absolute;
+    top: 1442.1px;
+    left: 0px;
+
+    z-index: 5;
+}
+
+.underline3
+{
+    background-color: rgb(139, 253, 139);
+    width: 730px;
+    height: 3px;
+
+    position: absolute;
+    top: 1550px;
+    left: 407.5px;
+
+    z-index: 5;
+}
+
+.point3
+{
+    background-color: rgb(139, 253, 139);
+    width: 10px;
+    height: 10px;
+
+    border-radius: 100px;
+
+    position: absolute;
+    top: 1576px;
+    left: 550px;
+
+    z-index: 5;
+}
+
+.poza1
+{
+    position: absolute;
+    top: 3px;
+    left: 0px;
+
+    width: 1519px;
+    height: 718px;
+
+    z-index: 1;
+}
+
+.shadow1
+{
+    background-color: black;
+    opacity: 0.75;
+
+    position: absolute;
+    top: 3px;
+    left: 0px;
+
+    width: 1519px;
+    height: 718px;
+
+    z-index: 2;
+}
+
+.poza2
+{
+    position: absolute;
+    top: 724px;
+    left: 0px;
+
+    width: 1519px;
+    height: 718px;
+
+    z-index: 1;
+}
+
+.shadow2
+{
+    background-color: black;
+    opacity: 0.75;
+
+    position: absolute;
+    top: 724px;
+    left: 0px;
+
+    width: 1519px;
+    height: 718px;
+
+    z-index: 2;
+}
+
+.poza3
+{
+    position: absolute;
+    top: 1400px;
+    left: 0px;
+
+    width: 1519px;
+    height: 764px;
+
+    z-index: -10;
+}
+
+.shadow3
+{
+    background-color: black;
+    opacity: 0.75;
+
+    position: absolute;
+    top: 1441px;
+    left: 0px;
+
+    width: 1519px;
+    height: 724px;
+
+    z-index: 2;
+}
+
+.button1
+{
+    background-color: black;
+    opacity: 0;
+
+    position: absolute;
+    top: 611px;
+    left: 725px;
+
+    width: 53px;
+    height: 27px;
+
+    z-index: 5;
+}
+
+.button1:hover
+{
+    opacity: 0.7;
+}
+
+.nextbutton1
+{
+    color: white;
+
+    position: absolute;
+    top: 600px;
+    left: 730px;
+
+    z-index: 3;
+}
+
+.button2
+{
+    background-color: black;
+    opacity: 0;
+
+    position: absolute;
+    top: 1400px;
+    left: 720px;
+
+    width: 53px;
+    height: 27px;
+
+    z-index: 5;
+}
+
+.button2:hover
+{
+    opacity: 0.7;
+}
+
+.nextbutton2
+{
+    color: white;
+
+    position: absolute;
+    top: 1390px;
+    left: 725px;
+
+    z-index: 3;
+}
+
+.firstq
+{
+    color: white;
+
+    position: absolute;
+    top: 20px;
+    left: 300px;
+
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    
+    z-index: 2;
+}
+
+.firsta
+{
+    color: white;
+
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    
+    width: 400px;
+
+    font-size: 25px;
+    font-weight: 1000;
+    text-align: center;
+    
+    z-index: 2;
+}
+
+.secondq
+{
+        color: white;
+
+        position: absolute;
+        top: 720px;
+        left: 390px;
+
+        font-size: 50px;
+        font-weight: 1000;
+        text-align: center;
+        
+        z-index: 2;
+}
+
+.seconda
+{
+    color: white;
+
+    position: absolute;
+    top: 830px;
+    left: 550px;
+    
+    width: 400px;
+
+    font-size: 25px;
+    font-weight: 1000;
+    text-align: center;
+    
+    z-index: 2;
+}
+
+.thirdq
+{
+    color: white;
+
+    position: absolute;
+    top: 1435px;
+    left: 415px;
+
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    
+    z-index: 2;
+}
+
+.thirda
+{
+    color: white;
+
+    position: absolute;
+    top: 1550px;
+    left: 560px;
+    
+    width: 400px;
+
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    
+    z-index: 2;
+}
